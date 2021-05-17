@@ -13,6 +13,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="4e098737-2811-416b-87b1-c27022ada1e2" message='"I am log 1'/>
 		<flow-ref doc:name="Flow Reference" doc:id="edadb6e4-05d3-493a-866e-aa3e480c80a2" name="subflow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="e4a63a2c-3a30-49eb-8e3c-34ed10bacbb8" message='"Flow ends'/>
+		<logger level="INFO" doc:name="Logger" doc:id="08808243-1e49-4063-b117-bff2293cbd33" />
 	</flow>
 	<flow name="Privateflow" doc:id="48cb4607-ee38-4546-8f42-f955578498d0" >
 		<logger level="INFO" doc:name="Logger" doc:id="05e17ebb-78b2-4309-b0fe-a3d0a78c95fb" message='"Private flow got invoked'/>
